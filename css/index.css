@@ -5,7 +5,7 @@ html {
   scroll-behavior: smooth;
 }
 section {
-  padding-bottom: 100px;
+  padding-bottom: 80px;
 }
 
 /** Typefaces **/
@@ -48,6 +48,7 @@ h5 {
 
 p {
   font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
   line-height: 180%;
   letter-spacing: .25px;
   color: #2C2B26;
@@ -67,34 +68,17 @@ b {
   z-index: 10;
 }
 .navbar-nav {
-  margin-left: 200px;
-
+  margin: auto;
   /**margin-left: auto;
   margin-right: 0 !important;**/
-}
-.navbar-brand img {
-  padding-right: 15px;
-  width: 65px;
 }
 .nav-item {
   margin: 0px 15px;
 }
-.dropdown-menu {
-  background: url("../images/transparency.png");
-  background-color: transparent !important;
-  background-size: cover;
-}
-.dropdown.item:focus, .dropdown.item:hover {
-  color: #16181b;
-  text-decoration: none;
-  background: black;
-}
 .customNav a {
-  color: black !important;
+  color: #2C2B26 !important;
 }
-.navCTA {
-  font-size: 15px;
-}
+
 
 /** Button **/
 button{
@@ -106,73 +90,45 @@ button{
   border-color: none;
   background-color: #F9F9F9;
   color: #2C2B26;
+  letter-spacing: 2px;
+}
+
+button:hover {
+  box-shadow: 2px 6px 1px #2c2b26;
+  transform: scale(1.05);
+  transform: translate(0px,-5px);
+  border-color:  #2c2b26;
 }
 
 /** Cards**/
-.content {
-  padding: 50px;
-}
-.sectionHeading {
-  text-align: center;
-  padding: 20px;
-}
-.showsNear {
-  padding: 0px 30px 30px 30px;
-}
-.cardContainer {
-  text-align: center;
-}
-
-/** Content / Row **/
-.valueProp {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-.sideAccent{
-  background: #007bff;
-  width: 15px;
-}
-.imageContainer{
-  padding: 50px;
-}
-.imageContainer img {
-  width: 100%;
-}
-
-/** Footer **/
-footer {
-  position: absolute;
-  width: 100%;
-  height: 60px;
-  line-height: 60px;
-  background-color: #f5f5f5;
-  margin-top: 50px;
-} 
-.emailContain {
-  background: url(../images/emailBG.jpg);
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 500px;
-}
-form {
-  width: 500px;
-  margin: 35px auto;
-  padding: 45px;
-  border: 1px solid #F2F2F2;
-  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1);
-  background-color: white;
-}
-
-/** XTRA **/
 .cardContainer {
   margin-top: 20px;
 }
 .card {
   margin: 0 auto;
+  background-color: #F9F9F9;
+  border-radius: 5px;
+  border-color: transparent;
+  box-shadow: 5px 5px 35px rgba(101, 101, 101, 0.3);
 }
+.card img {
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 40px;
+}
+.content {
+  padding-left: 100px;
+  padding-right:100px;
+  padding-bottom: 80px;
+}
+.card-title {
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+.card-text {
+  text-align: left;
+  font-family: 'DM Sans', sans-serif;
+}
+
